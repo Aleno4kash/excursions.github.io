@@ -318,22 +318,6 @@
 	}
 
 /*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
-	{
-		overflow: hidden;
-		padding: 5em 0em;
-		/*background: url(images/1.jpg) no-repeat center;*/
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		width: 100%;
-		border-top: 1px solid rgba(0,0,0,0.08);
-	}
-
-/*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
 
@@ -495,3 +479,16 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
+
+.slider
+{
+
+		overflow: hidden;
+		padding: 5em 0em;
+		/*background: url(images/1.jpg) no-repeat center;*/
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		border-top: 1px solid rgba(0,0,0,0.08);
+}

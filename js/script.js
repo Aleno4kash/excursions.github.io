@@ -1,23 +1,26 @@
 
-function go()
+
+var i=1;
+var sliders=document.getElementsByClassName("slider");
+window.setInterval(StartSlider,5000);
+var len=sliders.length;
+
+function StartSlider()
 {
-	window.setInterval(slider,9000);
-}
-function slider()
-{
-	var obj=document.getElementById("banner");	
-	var arr=["images/2.png","images/3.png","images/1.png"]; 
- var i=parseInt(obj.value,10);
-	if(i<arr.length)
-		obj.src=arr[i];
+	if(i==len)
+		i=0;
+	if(i==0)
+	{
+		sliders[len-1].style.display="none";
+		sliders[i].style.display="block";
+	}
 	else
-		{
-			obj.value=0;
-			var i=parseInt(obj.value,10);
-			obj.src=arr[i];
-		}
+	{
+		sliders[i-1].style.display="none";
+		sliders[i].style.display="block";
+	}
+	i++;
 
-	obj.value=1+parseInt(obj.value,10);
-
-
+	
+	
 }

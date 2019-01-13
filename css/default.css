@@ -489,7 +489,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 100%;
-		display: inline-block;
+		
+		width:100vw
 		border-top: 1px solid rgba(0,0,0,0.08);
 }

@@ -490,6 +490,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
-		min-width: 2000px;
+		display: inline-block;
 		border-top: 1px solid rgba(0,0,0,0.08);
 }

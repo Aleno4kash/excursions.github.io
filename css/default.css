@@ -5,7 +5,7 @@
 	
 	body
 	{
-		display: inline-block;
+
 		margin: 0px;
 		padding: 0px;
 		background: #FFF;
@@ -492,6 +492,5 @@
 		background-size: cover;
 		
 		width:100%;
-		min-width:9980px;
 		border-top: 1px solid rgba(0,0,0,0.08);
 }

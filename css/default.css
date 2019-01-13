@@ -5,6 +5,7 @@
 	
 	body
 	{
+		display: inline-block;
 		margin: 0px;
 		padding: 0px;
 		background: #FFF;
@@ -490,6 +491,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		
-		width:100vw;
+		width:100%;
+		min-width:980px;
 		border-top: 1px solid rgba(0,0,0,0.08);
 }

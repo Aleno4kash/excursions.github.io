@@ -318,22 +318,6 @@
 	}
 
 /*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
-	{
-		overflow: hidden;
-		padding: 5em 0em;
-		/*background: url(images/1.jpg) no-repeat center;*/
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		width: 100%;
-		border-top: 1px solid rgba(0,0,0,0.08);
-	}
-
-/*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
 
@@ -410,6 +394,8 @@
 
 	#footer
 	{
+
+	
 	}
 
 /*********************************************************************************/
@@ -418,12 +404,15 @@
 
 	#copyright
 	{
-		overflow: hidden;
+		overflow: hidden;	
+		margin: 0em auto;
 		padding: 5em 0em;
 		background: #8dc63f;
-		 background: linear-gradient(to top,  #fff,#8dc63f);
+		background: linear-gradient(to top,  #fff,#8dc63f);
 		width: 100%;
+		min-width:1224px;
 		border-top: 1px solid rgba(0,0,0,0.1);
+	
 	}
 	
 	#copyright p
@@ -495,3 +484,19 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
+
+.slider
+{
+
+		overflow: hidden;
+		padding: 5em 0em;
+		/*background: url(images/1.jpg) no-repeat center;*/
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		width: auto\9;
+		min-width:1224px ;
+
+		border-top: 1px solid rgba(0,0,0,0.08);
+}

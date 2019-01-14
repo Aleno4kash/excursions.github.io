@@ -394,7 +394,8 @@
 
 	#footer
 	{
-		min-width:1224px;
+
+	
 	}
 
 /*********************************************************************************/
@@ -406,8 +407,9 @@
 		overflow: hidden;
 		padding: 5em 0em;
 		background: #8dc63f;
-		 background: linear-gradient(to top,  #fff,#8dc63f);
+		background: linear-gradient(to top,  #fff,#8dc63f);
 		width: 100%;
+		min-width:1224px;
 		border-top: 1px solid rgba(0,0,0,0.1);
 	}
 	
